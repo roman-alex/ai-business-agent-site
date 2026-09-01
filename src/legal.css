@@ -1,0 +1,25 @@
+.legal-header { padding-bottom: 36px; border-bottom: 1px solid var(--line); margin-bottom: 44px; }
+.legal-header h1 { font-size: clamp(44px, 7vw, 68px); }
+.legal-summary { color: var(--muted); font-size: 18px; line-height: 1.7; }
+.legal-summary p { margin-bottom: 8px; }
+.updated { font-size: 13px; }
+.legal-content h2 { margin: 50px 0 16px; font-size: 28px; letter-spacing: -.035em; }
+.legal-content h3 { margin: 28px 0 10px; font-size: 17px; }
+.legal-content p, .legal-content li { color: #4f5d71; font-size: 16px; line-height: 1.75; }
+.legal-content li + li { margin-top: 7px; }
+.legal-content a, .contact-card a { color: var(--blue); }
+.policy-callout { margin: 38px 0; padding: 24px 26px; border-left: 4px solid var(--mint); border-radius: 0 16px 16px 0; background: #edf8f4; }
+.policy-callout > strong { color: var(--ink); font-family: Manrope, sans-serif; font-size: 19px; }
+.steps { padding: 0; list-style: none; counter-reset: steps; }
+.steps li { position: relative; padding: 0 0 30px 54px; counter-increment: steps; }
+.steps li::before { content: counter(steps); position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: var(--ink); color: var(--mint); font-weight: 700; }
+.steps strong, .steps span { display: block; }
+.steps strong { color: var(--ink); font-size: 17px; }
+.page-notice { margin-top: 54px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 12px !important; color: #7c8998 !important; }
+.contact-card { overflow: hidden; margin: 0; border: 1px solid var(--line); border-radius: 20px; background: white; }
+.contact-card div { display: grid; grid-template-columns: 150px 1fr; gap: 24px; padding: 20px 24px; }
+.contact-card div + div { border-top: 1px solid var(--line); }
+.contact-card dt { color: var(--muted); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.contact-card dd { margin: 0; color: var(--ink); font-weight: 600; overflow-wrap: anywhere; }
+.contact-note { color: var(--muted); font-size: 14px; }
+@media (max-width: 560px) { .contact-card div { grid-template-columns: 1fr; gap: 6px; } }

@@ -1,0 +1,1 @@
+export const businessConfig = { productName: "AI Business Agent", legalName: "FOP Alieksieiev Roman Mykolayovych", contactEmail: "roman.alekseev555@gmail.com", country: "Ukraine", websiteUrl: "PLACEHOLDER_WEBSITE_URL" } as const;
