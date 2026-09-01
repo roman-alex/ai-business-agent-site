@@ -1,1 +1,1 @@
-export const businessConfig = { productName: "AI Business Agent", legalName: "ФОП Алексєєв Роман Миколайович", contactEmail: "roman.alekseev555@gmail.com", country: "Ukraine", websiteUrl: "https://roman-alex.github.io/ai-business-agent-site/" } as const;
+export const businessConfig = { productName: "AI Business Agent", legalName: "ФОП Алексєєв Роман Миколайович", contactEmail: "roman.alekseev555@gmail.com", country: "Ukraine", websiteUrl: "https://ai-business-agent.xyz/" } as const;
